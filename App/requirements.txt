@@ -1,0 +1,6 @@
+numpy
+matplotlib
+scikit-learn
+seaborn 
+category_coders
+pandas
