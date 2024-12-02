@@ -21,5 +21,5 @@ jobs:
         run: make train
       - name: Evaluation
         env:
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_TOKEN: ${{ secrets.MLOPS_LOAN_APPROVAL_SECRET }}
         run: make eval
